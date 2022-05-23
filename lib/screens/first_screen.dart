@@ -1,5 +1,6 @@
-import 'package:clock/clock.dart';
 import 'package:flutter/material.dart';
+
+import '../clock/clock.dart';
 
 class FirstTab extends StatelessWidget {
   @override
@@ -10,7 +11,8 @@ class FirstTab extends StatelessWidget {
           height: 85,
         ),
         Padding(
-          padding: EdgeInsets.symmetric(horizontal: 40),
+          padding: const EdgeInsets.symmetric(horizontal: 40.0),
+          child: Clock(),
         ),
         SizedBox(
           height: 85,
